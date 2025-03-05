@@ -1,0 +1,19 @@
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+    height: 30px;
+    background-color: rgb(187, 115, 255);
+    list-style: none;
+}
+a{
+     text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:Hover{
+/* text-transform: ; */
+font-weight: 700;
+}

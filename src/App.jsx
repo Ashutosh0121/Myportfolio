@@ -6,7 +6,7 @@ import Nav from "./Nav"
 export default function App() {
   return (
     <div>
-      <h1>Nav</h1>
+      
       <Nav/>
      <Routes>
         <Route path="/" Element={<Home/>} />
