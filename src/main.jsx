@@ -4,7 +4,9 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import Nav from "./Nav";
 
-createRoot(document.getElementById("root")).render(<App />);
+let a=<h1>hiiii</h1>
+
+createRoot(document.getElementById("root")).render(a);
 
 {
   /* <BrowserRouter>
