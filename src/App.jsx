@@ -7,11 +7,11 @@ export default function App() {
   return (
     <div>
       <h1>Nav</h1>
-      {/* <Nav/>
+      <Nav/>
      <Routes>
         <Route path="/" Element={<Home/>} />
         <Route path='/About' Element={<About/>}/>
-     </Routes> */}
+     </Routes>
 {/* <Nav/> */}
     </div>
   )
