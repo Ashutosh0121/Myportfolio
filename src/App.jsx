@@ -1,18 +1,19 @@
-import React from 'react'
-import {Routes,Route} from "react-router-dom"
-import Home from "./nav/Home"
-import About from './nav/About'
-import Nav from "./Nav"
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Home from "./nav/Home";
+import About from "./nav/About";
+import Project from "./nav/Project";
+import Nav from "./Nav"; // Added Nav component
+
 export default function App() {
   return (
     <div>
-      
-      <Nav/>
-     <Routes>
-        <Route path="/" Element={<Home/>} />
-        <Route path='/About' Element={<About/>}/>
-     </Routes>
-{/* <Nav/> */}
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/project" element={<Project />} />
+      </Routes>
     </div>
-  )
+  );
 }
