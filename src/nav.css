@@ -1,18 +1,29 @@
-.nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    height: 30px;
-    background-color: rgb(187, 115, 255);
-    list-style: none;
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 35px;
+  background-color: rgb(250, 245, 255);
+  list-style: none;
+  padding: 10px 30px;
 }
-a{
-     text-decoration: none;
-    color: rgb(255, 255, 255);
+a {
+  transition: all 0.2s;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  /* color: rgb(255, 255, 255); */
 }
 
-a:Hover{
-/* text-transform: ; */
-font-weight: 700;
+.active {
+  background-color: rgb(192, 125, 255);
+  color: white;
+}
+a:hover {
+  /* text-transform: ; */
+  font-weight: 700;
+}
+a:active {
+  color: white;
 }
