@@ -1,0 +1,59 @@
+section {
+  background-color: gainsboro;
+  margin: 20px auto;
+  height: 100px;
+}
+
+.box {
+  overflow: hidden;
+  height: 14px;
+  width: 100px;
+  display: inline-block; /* color: white; */
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+}
+
+.skils {
+  display: flex;
+  padding-left: 10px;
+}
+#html {
+  animation-name: a;
+  animation-duration: 7s;
+  background-color: red;
+  height: 15px;
+  width: 50%;
+  animation-direction: alternate;
+}
+
+@keyframes a {
+  0%{width: 0%;}
+  /* 50%{width: 100%;} */
+  100%{width: 50%;}
+}
+
+img{
+    animation-name: b;
+    animation-duration: 5s;
+    /* transform-style: ; */
+    /* transform-origin: /; */
+    /* transition-timing-function: altern; */
+    /* transition-property: al; */
+    /* animation-direction: ; */
+    animation-iteration-count: infinite;
+    perspective: 100px;
+    /* transform: rotatey(180deg); */
+}
+
+
+@keyframes b {
+   0%{transform:  translate(0vw) rotatey(180deg);}
+   40%{transform:  translate(80vw) rotatey(180deg);}
+
+   50%{transform: translate(80vw);}
+   51%{transform:  translate(80vw) rotatey(0deg);}
+80%{ transform:  rotatey(0deg) ;}
+   100%{transform:  rotatey(180deg) translate(0vw);}
+
+    /* 50%{transform: translate(80vw);} */
+}

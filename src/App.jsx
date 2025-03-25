@@ -9,7 +9,7 @@ import Resume from "./nav/Resume";
 export default function App() {
   return (
     <div>
-      <Nav />
+      <Nav/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
