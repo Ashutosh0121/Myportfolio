@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* font-optical-sizing: auto; */
+}
+html{
+    font-size: 72%;
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700;900&family=Poppins:wght@200;300;400;600&family=Quicksand:wght@300;400;500;600;700&family=Urbanist:wght@300;400;500;600;700;800;900&display=swap"); */
+
+.content {
+  margin: 0 auto;
+  max-width: 110rem;
+  position: relative;
+  
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section{
+  width: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+  /* position: absolute; */
+  /* z-index: 3; */
+  /* background: transparent; */
+}
+
+.nav ul {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav ul li,
+a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 2.3rem;
+  /* margin: 4px 0; */
+}
+/* 
+.active{
+  background-color: rgb(240, 165, 240);
+  padding: 1rem 2rem;
+  border-radius: 4px;
+} */
+
+.grid{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-around;
+}
+
+.grid_two {
+  display: grid;
+  gap: 2rem;
+  /* grid-template-rows: ; */
+  grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+p {
+  font-size: 2rem;
+}
+
+.right img {
+  height: 60rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+#blue {
+  color: rgb(139, 170, 255);
+}
+
+section {
+  /* background: #eff4fa; */
+  padding: 5rem;
+}
+
+/* ------------------------------ */
+
+.resume-grid {
+  /* width: 80%; */
+  /* height: 700px; */
+  display: grid;
+  gap: 10px;
+  display: grid;
+  padding: 10px;
+  justify-self: center;
+  border: 1px solid black;
+  background-color: rgb(158, 54, 255);
+  /* grid-row: ; */
+  grid-template-rows: repeat(3);
+grid-template-columns: repeat( 3,1fr);
+  /* grid-template-columns: auto auto auto; */
+}
+.box {
+  display: grid;
+  padding:2rem;
+  border-radius: 5px;
+  background: rgb(253, 255, 246);
+}
+
+.bone {
+  grid-row: span 1 ;
+  & img{
+    
+    height: 20rem ;
+  }
+}
+.btwo {
+  align-content:center ;
+  /* align-items: center; */
+  /* justify-items: s; */
+
+  grid-column: span 2;
+  /* padding:0 10px; */
+ 
+  & p{
+    font-size:2rem ;
+    
+  }
+}
+.bthree{
+  background: green;
+}
+
+
+/* ----------footer--------- */
+.grid-four{
+  background: black;
+  height: 20rem;
+  color: white;
+}
